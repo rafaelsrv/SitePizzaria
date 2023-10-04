@@ -298,10 +298,12 @@ footer {
     margin:8px;
     gap: 8px;
     font-size: 40px;
-    grid-template-columns: 1fr 1fr;
+    flex-wrap: wrap;
+    grid-template-columns: minmax(100px, 1fr) minmax(400px, 2fr)
     
     
 }
 .flexex div{
     background-color: green;
+    border: 3px solid blue;
 }
