@@ -181,11 +181,11 @@ html {
     text-transform: uppercase;
 }
 .itens-cardapio {
-    width: 80%;
+    width: 90%;
     margin-top: 2rem;
     margin-bottom: 2rem;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 350px));
     justify-content: center;
     align-items: center;
     gap: 30px;
@@ -306,4 +306,24 @@ footer {
 .flexex div{
     background-color: green;
     border: 3px solid blue;
+}
+
+@media (max-width: 1200px){
+    .main{
+        display: block;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 12%;
+        padding-left: 0px;
+    }
+    .sobre-nos img{
+        width: 600px;
+        margin-left: -2px;
+    }
+}
+@media (max-width: 992px){
+    
 }
