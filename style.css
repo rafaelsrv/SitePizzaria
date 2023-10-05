@@ -414,4 +414,97 @@ footer {
     .itens-cardapio .info h4 {
         margin-left: 12rem;
     }
+    .contatos-secao{
+        display: block;
+        align-items: center;
+        font-size: 2rem;
+    }
+    .contatos-secao div{
+        margin: 1rem;
+    }
+}
+@media (max-width:600px){
+    .conteudo-principal h1{
+        width:500px;
+        text-align: center;
+        font-size: 4rem;
+    }
+    .conteudo-principal h2{
+        font-size: 2rem;
+    }
+    .itens-cardapio {
+        grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+    }
+    .sobre-nos img{
+        width: 400px;
+        height: 250px;
+        margin-left: 10px;
+    }
+    .sobre-nos p {
+        text-align: center;
+        width: 400px;
+    }
+    .contatos-secao{
+        width: 300px;
+    }
+}
+@media (max-width: 500px){
+    .btn{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 150px;
+    }
+    .btn button{
+        font-size: 1.5rem;
+        width: 100%;
+    }
+    .conteudo-principal h1{
+        width: 350px;
+        font-size: 3rem;
+        text-align: center;
+    }
+    .conteudo-principal h2{
+        width: 200px;
+        font-size: 2rem;
+        text-align: center;
+    }
+}
+@media(max-width: 395px){
+    .sobre-nos img{
+        width: 250px;
+        height: auto;
+        margin-left: 10px;
+    }
+    .contentsobre p {
+        text-align: center;
+        width: 250px;
+    }
+    .itens-cardapio {
+        width: 50%;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 350px));
+
+    }
+    .itens-cardapio img{
+        width: 80%;
+        height: auto;
+    }
+    .itens-cardapio div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .itens-cardapio .info{
+        width: 100%;
+        height: 150px;
+    }
+    .itens-cardapio .info h4{
+        grid-template-columns: 93px 150px;
+    }
+    .itens-cardapio .info .pedir{
+        width: 100%;
+        font-size: 1.5rem;
+    }
 }
