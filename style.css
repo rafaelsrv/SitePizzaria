@@ -296,10 +296,10 @@ footer {
     display:grid;
     border: 2px solid red;
     margin:8px;
-    gap: 8px;
+    gap: 8px;   
     font-size: 40px;
     flex-wrap: wrap;
-    grid-template-columns: minmax(100px, 1fr) minmax(400px, 2fr)
+    grid-template-columns: minmax(min-content, 1fr) minmax(400px, 2fr)
     
     
 }
