@@ -501,7 +501,7 @@ footer {
         height: 150px;
     }
     .itens-cardapio .info h4{
-        grid-template-columns: 93px 150px;
+        grid-template-columns: 92px 150px;
     }
     .itens-cardapio .info .pedir{
         width: 100%;
